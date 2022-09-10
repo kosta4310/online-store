@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NewsPortal</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__row">
+                <div class="logo"></div>
+                <div class="header__basket-goods"></div>
+            </div>
+        </header>
+        <main>
+            <div class="block-filter">
+                <div class="filter-by-value">
+                    <h2>Filters by value</h2>
+                    <div class="manufactured details">
+                        <h4>manufactured:</h4>
+                        <ul class="manufactured__list">
+                            <button id="Canon">canon</button>
+                            <button id="Nikon">nikon</button>
+                            <button id="Sony">sony</button>
+                        </ul>
+                    </div>
+                    <div class="number-of-pixels details">
+                        <h4>number-of-pixels:</h4>
+                        <ul class="number-of-pixel__list">
+                            <button id="18">18</button>
+                            <button id="24">24</button>
+                            <button id="26">26</button>
+                            <button id="30">30</button>
+                        </ul>
+                    </div>
+                    <div class="popularity details">
+                        <h4>popularity:</h4>
+
+                        <input type="checkbox" name="popularity" id="popularity">
+
+                    </div>
+                </div>
+                <div class="filter-by-range">
+                    <h2>Filters by range</h2>
+                    <div class="filter-by-range__quantity-of-stock">
+                        <h4>Quantity of stock</h4>
+                        <div class="slider-wrapper">
+                            <div class="left-count"><span></span></div>
+                            <div id="rangeQuantity" class="slider"></div>
+                            <div class="right-count"><span></span></div>
+                        </div>
+
+                    </div>
+                    <div class="filter-by-range__production-year">
+                        <h4>Production year</h4>
+                        <div class="slider-wrapper">
+                            <div class="left-count"><span></span></div>
+                            <div id="rangeYear" class="slider"></div>
+                            <div class="right-count"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-block">
+                    <div class="search">
+                        <h2>Search</h2>
+                        <input type="text" placeholder="enter text">
+                    </div>
+                    <div class="sort">
+                        <h2>Sort</h2>
+                        <input type="text" placeholder="sort by name">
+                    </div>
+                    <div class="button-block">
+                        <button class="reset-of-filters">Reset filters</button>
+                        <button class="reset-of-settings">Reset settings</button>
+                    </div>
+                </div>
+            </div>
+            <div class="block-goods">
+            </div>
+        </main>
+        <footer class="footer">
+
+        </footer>
+    </div>
+    <template id="temp-card">
+        <div class="block-goods__card">
+            <div class="card">
+                <h3 class="card__name"></h3>
+                <div class="card__image"></div>
+                <p class="card__manufactured"></p>
+                <p class="card__price"></p>
+                <p class="card__is-kit"></p>
+                <p class="card__number-of-pixels"></p>
+                <p class="card__focus"></p>
+                <p class="card__dimensions"></p>
+                <p class="card__popularity"></p>
+                <p class="card__count"></p>
+                <p class="card__year"></p>
+                <p class="card__link"></p>
+            </div>
+        </div>
+    </template>
+</body>
+
+</html>

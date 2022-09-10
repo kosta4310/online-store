@@ -1,0 +1,40 @@
+button,
+input {
+  font-size: inherit;
+}
+
+.block-filter {
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  column-gap: 20px;
+  align-items: stretch;
+  margin: 10px 20px;
+}
+
+.filter-by-value {
+  background-color: aqua;
+  flex: 1 1 33.33%;
+}
+
+.popularity {
+  align-items: center;
+}
+
+#popularity {
+  width: 30px;
+  height: 30px;
+}
+
+.filter-by-range {
+  background-color: beige;
+  flex: 1 1 33.33%;
+}
+.search-block {
+  flex: 1 1 33.33%;
+  background-color: chartreuse;
+}
+
+.active {
+  background-color: red;
+}

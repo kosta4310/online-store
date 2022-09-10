@@ -1,0 +1,18 @@
+.card {
+  width: 400px;
+  border: 2px solid #acbefd;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+  line-height: 24px;
+}
+.card__name {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.card__image img {
+  width: 400px;
+}

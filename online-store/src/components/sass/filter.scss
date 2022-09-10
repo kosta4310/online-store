@@ -1,0 +1,61 @@
+button,
+input {
+    font-size: inherit;
+}
+.block-filter {
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    column-gap: 20px;
+    align-items: stretch;
+    margin: 10px 20px;
+}
+.filter-by-value {
+    background-color: aqua;
+    flex: 1 1 33.33%;
+}
+.manufactured {
+}
+.popularity {
+    align-items: center;
+}
+.details {
+}
+#popularity {
+    width: 30px;
+    height: 30px;
+}
+.details button {
+}
+.number-of-pixels {
+}
+
+.search {
+}
+
+.filter-by-range {
+    background-color: beige;
+    flex: 1 1 33.33%;
+
+    // .filter-by-range__quantity-of-stock
+
+    &__quantity-of-stock {
+    }
+
+    // .filter-by-range__production-year
+
+    &__production-year {
+    }
+}
+.search-block {
+    flex: 1 1 33.33%;
+
+    background-color: chartreuse;
+}
+.search {
+}
+.sort {
+}
+.active {
+    background-color: red;
+}

@@ -1,0 +1,60 @@
+@import './components/sass/nullable';
+@import './components/sass/card';
+@import './components//sass/filter.scss';
+@import './components/sass/nouislider.scss';
+html,
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4354cd;
+}
+.wrapper {
+    height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #64cd52;
+    height: 100px;
+    // .header__row
+
+    &__row {
+    }
+
+    // .header__basket-goods
+
+    &__basket-goods {
+    }
+}
+.logo {
+}
+main {
+    background-color: #4354cd;
+    flex: 1 1 auto;
+}
+// .block-filter {
+//     width: 300px;
+//     height: 100px;
+//     background-color: bisque;
+// }
+.filter-by-value {
+}
+.filter-by-diapason {
+}
+.search {
+}
+.block-goods {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer {
+    background-color: #c9507d;
+    height: 100px;
+}
+.details {
+    display: flex;
+    column-gap: 10px;
+}

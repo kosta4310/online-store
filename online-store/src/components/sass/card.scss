@@ -1,0 +1,74 @@
+.card {
+   width: 400px;
+	// height: 300px;
+	border: 2px solid #acbefd;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 10px;
+	border-radius: 10px;
+	line-height: 24px;
+
+		&__name {
+          font-size: 24px;
+			 padding-bottom: 10px;
+		}
+
+		// .card__image
+
+		&__image {
+			img {
+				width: 400px;
+			}
+		}
+
+		// .card__manufactured
+
+		&__manufactured {
+		}
+
+		// .card__price
+
+		&__price {
+		}
+
+		// .card__is-kit
+
+		&__is-kit {
+		}
+
+		// .card__number-of-pixels
+
+		&__number-of-pixels {
+		}
+
+		// .card__focus
+
+		&__focus {
+		}
+
+		// .card__dimensions
+
+		&__dimensions {
+		}
+
+		// .card__popularity
+
+		&__popularity {
+		}
+
+		// .card__count
+
+		&__count {
+		}
+
+		&__year {
+			
+		}
+
+		// .card__link
+
+		&__link {
+		}
+}
